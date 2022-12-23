@@ -67,7 +67,7 @@
                 <div class="modal-body">
                     <fieldset class="form-group floating-label-form-group">
                         <label for="description">Role</label>
-                        {!! Form::select('role',['Administrator'=>'Administrator','Manager'=>'Manager'],null,['id'=>'role', 'class'=>'form-control', 'required'=>'true', 'placeholder'=>'--Select Role--']) !!}
+                        {!! Form::select('role',['Administrator'=>'Administrator','Manager'=>'Manager','CEO'=>'CEO'],null,['id'=>'role', 'class'=>'form-control', 'required'=>'true', 'placeholder'=>'--Select Role--']) !!}
                     </fieldset>
                     <fieldset class="form-group floating-label-form-group">
                         <label for="description">Username</label>

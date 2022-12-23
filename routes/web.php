@@ -67,7 +67,7 @@ Route::group(['middleware' => 'auth:admin'], function () {
 });
 
 
-Route::group(['middleware' => 'auth'], function () {
+    Route::group(['middleware' => 'auth'], function () {
     Route::get('macaddress/getDataTable', 'MacAddressController@getDataTable');
     Route::get('macaddress/random', 'MacAddressController@random');
     Route::resource('macaddress', 'MacAddressController');
